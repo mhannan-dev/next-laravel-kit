@@ -42,7 +42,7 @@ const Page = () => {
                     id="name"
                     type="text"
                     value={name}
-                    className="block mt-1 w-full"
+                    className="block mt-1 min-w-full"
                     onChange={event => setName(event.target.value)}
                     required
                     autoFocus
@@ -59,7 +59,7 @@ const Page = () => {
                     id="email"
                     type="email"
                     value={email}
-                    className="block mt-1 w-full"
+                    className="block mt-1 min-w-full"
                     onChange={event => setEmail(event.target.value)}
                     required
                 />
@@ -75,7 +75,7 @@ const Page = () => {
                     id="password"
                     type="password"
                     value={password}
-                    className="block mt-1 w-full"
+                    className="block mt-1 min-w-full"
                     onChange={event => setPassword(event.target.value)}
                     required
                     autoComplete="new-password"
@@ -94,7 +94,7 @@ const Page = () => {
                     id="passwordConfirmation"
                     type="password"
                     value={passwordConfirmation}
-                    className="block mt-1 w-full"
+                    className="block mt-1 min-w-full"
                     onChange={event =>
                         setPasswordConfirmation(event.target.value)
                     }
